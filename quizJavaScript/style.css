@@ -1,0 +1,270 @@
+body
+{
+    background-color: #454545;
+    color: #CCCCCC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width:1000px;
+    margin: auto;
+}
+#ButtonHolder
+{
+    text-align: center;
+}
+#QuestionHolder
+{
+    height:auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.Buttons_
+{
+    width: 200px;
+    height:55px;
+    border-radius: 15px;
+    background-color: #CCCCCC;
+    color:#454545;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 15px;
+}
+.Buttons_:hover
+{
+    background-color: #353535;
+    color:#CCCCCC;
+}
+#TakeName
+{
+    font-size: 32px;
+    width: 500px;
+    text-align: center;
+    padding: 20px 5px;
+    margin: auto;
+    border: 2px solid #bbb;
+    border-radius: 12px;
+}
+#NameTaker
+{
+    width: 300px;
+    height:65px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+#Hedder
+{
+    font-size: 52px;
+    padding: 20px 0;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    text-align: center;
+}
+.QuestionFieldset
+{
+    display: block;
+    margin: auto;
+    width: 700px;
+    border-radius: 10px;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.DisplayContentsClass
+{
+    display: contents;
+}
+.Question
+{
+    display: block;
+    font-size: 34px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Answer
+{
+    width:320px;
+    float: left;
+    font-size: 24px;
+    height: 130px;
+    padding: 15px;
+}
+.RadioButtonAndCheckBox
+{
+    cursor: pointer;
+    box-sizing: border-box;
+    appearance: none;
+    outline: 2px solid #222;
+    border: 3px solid white;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 5px;
+}
+.RadioButtonAndCheckBox:checked
+{
+    background-color: #222;
+}
+#QuestionNumber
+{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    width: max-content;
+    padding: 15px 24px;
+    visibility: hidden;
+}
+.SelectQuestion
+{
+    width: 240px;
+    height:65px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #ccc;
+    color:#353535
+}
+.SelectOption
+{
+    background-color: #ccc;
+    color:#353535
+}
+.SelectOption:checked
+{
+    background-color: #444;
+    color: #ccc;
+}
+.TextQuestion
+{
+    width: 320px;
+    height:60px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #ccc;
+    color:#353535
+}
+.scoreboard
+{
+    width: 1407px;
+    border: 2px solid #bbb;
+    border-radius: 8px;
+    margin: auto;
+}
+.ScoreDiv
+{
+    width: 445px;
+    margin: 5px;
+    border: 2px solid #AAA;
+    border-radius: 3px;
+    padding: 10px 0 ;
+    float: left;
+    font-size: 24px; 
+    height: 170px; 
+}
+.ScoreDivWTF
+{
+    width: 445px;
+    margin: 5px;
+    border: 2px solid #AAA;
+    border-radius: 3px;
+    padding: 30px 0 ;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    height: 130px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Column
+{
+    width: 445px;
+    margin: 5px;
+    border: 2px solid #AAA;
+    border-radius: 3px;
+    padding: 20px 0;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+}
+#Alert
+{
+    width: 680px;
+    margin: 30px 150px;
+    display: inline-block;
+    background-color: #CBCBCB;
+    color:#db2114;
+    font-size: 46px;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+#CloseAlert
+{
+    display: none;
+}
+#CloseAlertLabel
+{
+    cursor: pointer;
+}
+#AlertText
+{
+    width: 90%;
+    text-align: center;
+    float: right; 
+    height: 50px;
+}
+#AlertCloseDiv
+{
+    height: 50px;
+    width: 10%;
+    text-align: right;
+    float: right;
+}
+#ScoreBoardEater
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1407px;
+    text-align: center;
+}
+.BadAnswer
+{
+    display: block;
+    border: 2px solid red;
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    padding:  3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.CorrectAnswer
+{
+    display: block;
+    border: 2px solid rgb(13, 192, 22);
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    padding:  3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.ABCD_Answer    
+{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 5px;
+    color: red;
+}
